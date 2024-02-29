@@ -1,0 +1,330 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+/*---------all-----------*/
+.all{
+    width: 1349px;
+    height:715px;
+    background-color:#F0F2F5 ;
+    padding-bottom: 112px;
+    padding-top:72px;
+    position: absolute;
+    
+  
+}
+.main{
+    width: 980px;
+    height: 536px;
+    background-color:#F0F2F5;
+    margin: auto;
+    padding: 20px;
+}
+/*---------Left-arya-----------*/
+.left{
+  width: 580px;
+  height: 266px;
+  float: left;
+  background-color:#F0F2F5;
+}
+.img{
+    width:580px;
+    height: 182px;
+    padding: 112px 0 16px;
+}
+.img img{
+    width: 320px;
+    height: 106px;
+    margin-top: -30px;
+    margin-left: 17px;
+    display: inline-block;
+}
+.text{
+    width:500px;
+    height: 84px;
+    position: absolute;
+    margin-top: 0;
+    
+}
+h2{
+    width:485px;
+    height: 84px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    position: absolute;
+    display: inline-block;
+    margin-top: -130px;
+    margin-left: 50px;
+
+}
+.all::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*---------Right-aiya-----------*/
+.right{
+    width: 396px;
+    height: 300px;
+    vertical-align: inherit;
+    float:left;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 20px;
+   
+}
+.border{
+    width: 396px;
+    height: 315px;
+    background-color:#FFFFFF;
+    margin: 8px  0 87px 0;
+    border-radius: 10px;
+}
+/*---------all-input-----------*/
+.input input{
+    width:340px;
+    height: 40px;
+    margin: 5px 10px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #E5E7E9;
+
+}
+/*---------text-----------*/
+.input input [type="text"]{
+    position: absolute;
+    margin-top:10px;
+    display: block;
+   font-size: 50px;
+   
+}
+.input input[type=text]:focus{
+    border: 1px solid #76a1f7;
+   
+}
+ input[type=text], select {
+    padding: 6px 16px;
+    font-size: 17px;
+    color: #27282b;
+   
+}
+
+
+/*---------password-----------*/
+
+.input input [type="password"]{
+    width: 370px;
+    position: absolute;
+    display: block;
+    margin:5px 12px;
+    padding: 14px 16px;
+    font-size: 50px;
+   
+   
+}
+.input input[type="password"]:focus{
+    border: 1px solid #76a1f7;
+   
+}
+ input[type="password"], select {
+    padding:6px 16px;
+    font-size: 17px;
+    color: #27282b;
+    margin-left: 10px;
+   
+}
+
+
+/*---------submit-----------*/
+input[type="submit"]{
+    width: 93%;
+    height: 47px;
+    display: block;
+    margin: auto;
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    white-space: nowrap;
+}
+input[type="submit"]:hover:active{
+box-shadow: inset 2px 2px 2px rgba(246, 247, 248, 0.7),
+            inset -2px 2px 2px rgba(246, 247, 248, 0.7),
+            inset 2px -2px 2px rgba(249, 250, 250, 0.7);
+            
+}
+.border-line{
+    width: 90%;
+    height: 1px;
+    background-color: #d3d4d4;
+    margin: 20px 16px;
+}
+.Long-in a[class="lon-a"]{
+    text-decoration: none;
+}
+.Long-in .ami{
+    width: 100%;
+    display: block;
+    margin-left:30%;
+    padding: 10px;
+    font-weight: 500px;
+    font-size: 17px;
+    font-family: inherit;
+    text-decoration: none;
+    color: #1877F2;
+}
+.Long-in .ami:hover{
+    text-decoration: underline;
+}
+.a1{
+    width: 192px;
+    line-height:48px;
+   text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 586;
+  display: block;
+    color: #f7f7f8;
+    background-color:#24ca02;
+    padding:0 16px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.a1:hover{
+    background-color: #45d827;
+}
+.text-right{
+    width: 396px;
+    height: 18px;
+    display: block;
+    text-align: center;
+    border-top: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 40px;position:relative;
+}
+.text-right {
+    width: 400px;
+    height: 20px;
+    font-size: 14px;
+    color: #737477;
+    font-weight: 600px;
+ 
+}
+.text-right a{ 
+    width: 100px;
+    height: 100px;
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: 600px;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+.footer{
+    width: 100%;
+    background-color:#FFFFFF;
+    margin-top: 40px;
+    
+}
+.frist-footer{
+    width:80%;
+    height: 188px;
+    background-color:#FFFFFF;
+    display:block;
+    padding-top: 20px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.frist-footer ul li{
+    width: 80%;
+    height: 300px;
+    list-style: none;
+    display:inline;
+    position:inherit;
+    padding:5px 5px;
+    margin-left: -5px;
+    
+}
+.frist-footer ul li a{
+    font-size: 13px;
+    color: #8A8D91;
+    text-decoration: none;
+}
+.frist-footer ul li a:hover{
+    text-decoration: underline;
+}
+ul li>button{
+    width: 27px;
+    height: 20px;
+    cursor: pointer;
+   
+ 
+}
+.line2{
+    width: 95%;
+    height: 1px;
+   background-color:#8A8D91;
+    margin-left:40px;
+    opacity: 0.50;
+    padding-top:-10px;
+    
+}
+.secound-footer{
+    margin-top: -10px;
+}
+.secound-footer ul li{
+    list-style: none;
+    padding: 0 14px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.there-footer ul{
+    margin-top: -15px;
+}
+.there-footer ul li a{
+    width: 100%;
+    list-style: none;
+    padding:0 12.1px;
+    font-weight: normal;
+   margin-left: -10px;
+    margin-top: 10px;
+}
+.four-footer ul{
+    margin-top: -11px;
+    margin-left:-7px;
+}
+.four-footer ul li img{
+    width: 10px;
+    height: 10px;
+}
+.four-footer ul li a{
+    padding:0 10px ;
+}
+.Meta{
+    width: 200px;
+    height: 10px;
+    margin-top: -52px;
+    margin-left: 174px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFFF;
+    opacity: 0.50;
+    position: absolute;
+}
